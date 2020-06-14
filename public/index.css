@@ -28,7 +28,7 @@
 .card-img {
     margin: 10px;
     width: 280px;
-    height: 140px;
+    height: 120px;
     background-size: cover;
     background-position: center;
 }
@@ -53,4 +53,22 @@
 
 .card-body {
     margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .list-steps {
+        display: block;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .card-step {
+        position: relative;
+        margin: 20px 0;
+        border: #f6f6f6 solid 1px;
+    }
+
+    .card-img {
+        width: auto;
+    }
 }
