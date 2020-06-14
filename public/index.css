@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+.list-steps {
+    display: flex;
+    width: 960px;
+}
+
+.card-step {
+    position: relative;
+    margin: 50px 30px 50px 0;
+    border: #f6f6f6 solid 1px;
+}
+
+.label-step {
+    position: absolute;
+    padding: 0 3px;
+    background-color: #fe9a4c;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.card-img {
+    margin: 10px;
+    width: 280px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-step:nth-child(1) .card-img {
+    background-image: url(img/flow01.png);
+}
+
+.card-step:nth-child(2) .card-img {
+    background-image: url(img/flow02.png);
+}
+
+.card-step:nth-child(3) .card-img {
+    background-image: url(img/flow03.png);
+}
+
+.card-header {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-body {
+    margin: 10px;
+}
